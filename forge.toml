@@ -1,0 +1,8 @@
+[project]
+name = "distributed-password-cracker"
+version = "0.1.0"
+
+[build]
+compiler = "/usr/bin/gcc"
+flags = []
+ignore_files = []
