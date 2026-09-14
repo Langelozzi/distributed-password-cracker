@@ -4,5 +4,15 @@ version = "0.1.0"
 
 [build]
 compiler = "/usr/bin/gcc"
-flags = []
+flags = ["-Wall", "-O2"]
+include_dirs = ["./include"]
 ignore_files = []
+common_src = []
+
+[[target]]
+name = "controller"
+src = "src/controller.c"
+
+[[target]]
+name = "worker"
+src = "src/worker.c"
