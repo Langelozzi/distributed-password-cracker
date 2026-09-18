@@ -1,7 +1,7 @@
 CC = /usr/bin/gcc
 CFLAGS = -Wall -O2 -I./include
 BUILD_DIR = ./build
-COMMON_SRC = src/network_utils.c
+COMMON_SRC = src/sys_utils.c src/network_utils.c
 
 .PHONY: all build clean
 

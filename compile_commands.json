@@ -1,22 +1,32 @@
 [
   {
-    "command": "/usr/bin/gcc src/controller.c src/worker.c src/network_utils.c -Wall -g -I./include -Wall -O2 -o build/distributed-password-cracker",
+    "command": "/usr/bin/gcc src/controller.c src/worker.c src/sys_utils.c src/network_utils.c -Wall -g -I./include -Wall -O2 -o build/distributed-password-cracker",
     "directory": "/Users/langelozzi/bcit_local/bsc/level_7_local/8005_netsec_app_dev/distributed-password-cracker",
     "file": "src/controller.c"
   },
   {
-    "command": "/usr/bin/gcc src/controller.c src/worker.c src/network_utils.c -Wall -g -I./include -Wall -O2 -o build/distributed-password-cracker",
+    "command": "/usr/bin/gcc src/controller.c src/worker.c src/sys_utils.c src/network_utils.c -Wall -g -I./include -Wall -O2 -o build/distributed-password-cracker",
     "directory": "/Users/langelozzi/bcit_local/bsc/level_7_local/8005_netsec_app_dev/distributed-password-cracker",
     "file": "src/worker.c"
   },
   {
-    "command": "/usr/bin/gcc src/controller.c src/worker.c src/network_utils.c -Wall -g -I./include -Wall -O2 -o build/distributed-password-cracker",
+    "command": "/usr/bin/gcc src/controller.c src/worker.c src/sys_utils.c src/network_utils.c -Wall -g -I./include -Wall -O2 -o build/distributed-password-cracker",
+    "directory": "/Users/langelozzi/bcit_local/bsc/level_7_local/8005_netsec_app_dev/distributed-password-cracker",
+    "file": "src/sys_utils.c"
+  },
+  {
+    "command": "/usr/bin/gcc src/controller.c src/worker.c src/sys_utils.c src/network_utils.c -Wall -g -I./include -Wall -O2 -o build/distributed-password-cracker",
     "directory": "/Users/langelozzi/bcit_local/bsc/level_7_local/8005_netsec_app_dev/distributed-password-cracker",
     "file": "src/network_utils.c"
   },
   {
-    "command": "/usr/bin/gcc src/controller.c src/worker.c src/network_utils.c -Wall -g -I./include -Wall -O2 -o build/distributed-password-cracker",
+    "command": "/usr/bin/gcc src/controller.c src/worker.c src/sys_utils.c src/network_utils.c -Wall -g -I./include -Wall -O2 -o build/distributed-password-cracker",
     "directory": "/Users/langelozzi/bcit_local/bsc/level_7_local/8005_netsec_app_dev/distributed-password-cracker",
     "file": "include/network_utils.h"
+  },
+  {
+    "command": "/usr/bin/gcc src/controller.c src/worker.c src/sys_utils.c src/network_utils.c -Wall -g -I./include -Wall -O2 -o build/distributed-password-cracker",
+    "directory": "/Users/langelozzi/bcit_local/bsc/level_7_local/8005_netsec_app_dev/distributed-password-cracker",
+    "file": "include/sys_utils.h"
   }
 ]
